@@ -2,15 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: ` <h1 class="home">Hello {{ text }}</h1> `,
-  styles: [
-    `
-      .home {
-        @apply text-3xl font-bold underline;
-      }
-    `,
-  ],
+  template: `<app-test></app-test>`,
 })
-export class AppComponent {
-  public text = 'world!';
-}
+export class AppComponent {}

@@ -3,7 +3,10 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@app/*": ["src/*"]
+      "@app/*": ["src/*"],
+      "@environment/*": ["public/environment*"],
+      "@shared/*": ["src/shared*"],
+      "@feature/*": ["src/feature*"]
     },
     "outDir": "./out",
     "forceConsistentCasingInFileNames": true,
