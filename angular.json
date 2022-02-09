@@ -9,7 +9,7 @@
         "@schematics/angular:component": {
           "inlineStyle": true,
           "inlineTemplate": true,
-          "style": "scss"
+          "displayBlock": true
         },
         "@schematics/angular:application": {
           "strict": true
@@ -27,9 +27,8 @@
             "polyfills": "public/polyfills.ts",
             "main": "public/main.ts",
             "tsConfig": "tsconfig.json",
-            "inlineStyleLanguage": "scss",
             "assets": ["public/assets"],
-            "styles": ["public/styles/main.scss"],
+            "styles": ["public/styles/main.css"],
             "scripts": []
           },
           "configurations": {
